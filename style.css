@@ -1,0 +1,157 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #9DA993;
+}
+
+/* Heading */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Profile picture */
+.profile-pic {
+    
+    position: relative;
+    margin-top: 50px;
+    width: auto;  
+    height: 350px;  
+    left: 10px;
+}
+
+
+
+/* External Links */
+a {
+    text-decoration: none;
+    color: blue;
+    
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.lists-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    color: rgb(0, 0, 0); 
+    left:100%;
+   
+}
+
+.lists-container div h3 {
+    color: rgb(0, 0, 0); 
+
+}
+
+.lists-container div:nth-child(2) ul li {
+    color: rgb(0, 0, 0); 
+    list-style-type: disc; 
+    margin-left: 20px;
+}
+
+.lists-container div:nth-child(1) ul li {
+    color: rgb(0, 0, 0); 
+    list-style-type: decimal; 
+    margin-left: 20px;
+}
+
+.style4 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    left: 20px;
+    top: -210px;
+
+}
+#Job{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    top: -200px;
+    font-size: 18px;
+    left: 15px;
+    margin: 0 auto;
+
+}
+
+div.quote {
+    background-color: #f9f9f9;
+    border-left: 6px solid #52584D;
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    font-style: italic;
+}
+#h3 {
+    position: relative;
+    right: 50px;
+    left: -115px;
+    bottom: 10px;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    top: -450px;
+}
+.table-container {
+    float: right;
+    top: 30px;
+}
+table {
+    position: relative;
+    float: left;
+    width: 30%;
+    border-collapse: collapse;
+    right: 30px;
+    left: -115px;
+    border-spacing: 10px;
+    bottom: 10px;
+    top: -400px;
+}
+th, td {
+    border: 3px solid #31352E;
+    padding: 12px;
+    text-align: center;
+    
+}
+tr:nth-child(even) {
+    background-color: #E39594;
+}
+
+.style3 {
+    position: relative;
+    top: 65px;  
+    right: 100px;
+    margin-bottom: 10px;
+    width: 20%;
+    height: auto;
+    color: #000000;
+    left: 330px;
+
+}
+#eduH {
+    position: relative;;
+    margin-bottom: 10px;
+    width: 20%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    left: 335px;
+   font-size: 20px;
+   top: 50px;
+    
+}
+  
