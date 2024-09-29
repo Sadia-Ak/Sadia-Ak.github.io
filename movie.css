@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 8pt;
+    font-family: 'Verdana', 'Tahoma', sans-serif;
+    background-image: url('background.png');
+    background-repeat: repeat;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24pt;
+    font-family: Tahoma;
+}
+.banner-container {
+    max-width: 100%;
+    height: auto;
+}
+#banner-image {
+    width: 100%;
+}
+.container {
+    display: flex;
+    margin: auto;
+    width: 800px;
+    border: 4px solid gray;
+    height: 815px;
+}
+.rotten-big-img {
+    width: 550px;
+    height: 83px;
+    background-image: url('rottenbackground.png');
+    background-repeat: repeat-x;
+    display: flex;
+}
+.rating {
+    transform: translate(10%, 10%);
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+.reviews {
+    color: white;
+    transform: translate(20%, 70%);
+}
+.column-container {
+    display: flex;
+    position: absolute;
+    margin: auto;
+    justify-content: space-between;
+    width: 550px;
+    top: 265px;
+}
+.row2 {
+    display: flex;
+    position: absolute;
+    margin: auto;
+    justify-content: space-between;
+    width: 550px;
+    top: 200px;
+}
+.row3 {
+    display: flex;
+    position: absolute;
+    margin: auto;
+    justify-content: space-between;
+    width: 550px;
+    top: 350px;
+}
+.row4 {
+    display: flex;
+    position: absolute;
+    margin: auto;
+    justify-content: space-between;
+    width: 550px;
+    top: 500px;
+}
+.row2 img {
+    float: left;
+    margin-right: 5px;
+}
+.column {
+    border: 2px solid gray;
+    background-color: #E1D697;
+    padding: 8px;
+    width: 47%;
+    margin: 2%;
+    font-size: 8pt;
+    font-weight: bold;
+}
+#c3 {
+    width: 47%;
+    height: 50%;
+}
+#c4 {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    top: -30px;
+}
+#c5 {
+    position: relative;
+    width: 50%;
+    height: 70%;
+}
+.column img {
+    float: left;
+    margin-right: 5px;
+}
+.row img {
+    float: left;
+    margin-right: 5px;
+}
+
+.reviewer-container {
+    display: flex;
+    position: absolute;
+    top: 115px;
+    width: 425px;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+.reviewer2 {
+    display: flex;
+    position: absolute;
+    top: 265px;
+    width: 386px;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+#p2 {
+    position: relative;
+    left: 15px;
+}
+#r3 {
+    top: 75px;
+}
+#r4 {
+    position: relative;
+    top: -30px;
+}
+#r5 {
+    position: relative;
+    left: 45px;
+    top: .1em;
+}
+#critic-name {
+    position: relative;
+    top: -25vh;
+}
+#critic-name2 {
+    position: relative;
+    top: -21vh;
+    right: -20px;
+}
+.reviewer3 {
+    position: absolute;
+    top: 465px;
+}
+.reviewer2 img {
+    float: left;
+    margin-right: 5px;
+}
+.reviewer {
+    margin-top: 3em;
+}
+.reviewer img {
+    float: left;
+    margin-right: 5px;
+}
+.style {
+    font-style: italic;
+    white-space: nowrap;
+}
+#s2 {
+    font-size: .9326vh;
+}
+#s3 {
+    position: relative;
+    right: -40px;
+    top: -20px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.right-section {
+    display: flex;
+    height: 781px;
+    flex-direction: column;
+}
+.page-review {
+    position: absolute;
+    text-align: center; 
+    width: 50%;
+    height: 10%;
+    top: 672px;
+    background-color: #A2B964;
+    margin-bottom: -5px;
+    padding-left: 275px;
+    padding-top: 10px; 
+}
+.general-overview {
+    float: right;
+    width: 250px;
+}
+.movie-info {
+    margin-top: -5px;
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+}
+dt {
+    margin-top: 1em;
+ 
+}
+dl {
+    margin-left: 15px;
+}
+.validator-icon2{
+    position: absolute;
+    top: 934px;
+    right: 80px;
+}
+.validator-icon{
+    float: right;
+    position: relative;
+    top: -67px;
+    left: -80px;
+}
+
+
+
