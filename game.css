@@ -1,0 +1,61 @@
+h1 {
+	text-align: center;
+}
+
+div#board{
+	width: 870px;
+	height: 1200px;
+	margin-left: 15px;
+}
+div#board > div {
+	border: .1px solid;
+	float: left;
+}
+div {
+	width: 200px;
+	height: 250px;
+	margin: 6px;
+	background-color: #d0e4fe;
+}
+#easyButton, #mediumButton, #hardButton {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+#easyButton {
+    background-color: green;
+    color: #cfcdc2; 
+}
+#mediumButton {
+    background-color: orange; 
+    color: #cfcdc2;
+}
+#hardButton {
+    background-color: red; 
+    color: #cfcdc2; 
+}
+input[type="radio"] {
+    margin-left: 85px;
+
+}
+a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: #757573;
+    font-size: 1rem;
+    background-color: #cfcdc2;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #977557;
+    color: #fff;
+}
+

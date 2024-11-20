@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memory Game</title>
+    <link href="game.css" type="text/css" rel="stylesheet"/>
+    <script src='game.js'></script>
+</head>
+<body>
+
+    <h1>Memory Game</h1>
+   
+    
+    <p>Select the number of tiles and difficulty level. Match all the images within the time limit to win.</p>
+    
+    <input type="radio" id="numPics12" name="numPics" value="12" onclick='radioCheck()'>
+<label for="numPics12" class="numPicsLabel">12 Pictures</label><br>
+
+<input type="radio" id="numPics10" name="numPics" value="10" onclick='radioCheck()'>
+<label for="numPics10" class="numPicsLabel">10 Pictures</label><br>
+
+<input type="radio" id="numPics8" name="numPics" value="8" onclick='radioCheck()'>
+<label for="numPics8" class="numPicsLabel">8 Pictures</label><br><br>
+
+    
+    <button id="easyButton" onclick='newGame(8000)'>Easy</button>
+    <button id="mediumButton" onclick='newGame(5000)'>Medium</button>
+    <button id="hardButton" onclick='newGame(3000)'>Hard</button>
+    
+    <h2 id="timer"></h2>
+    
+    <div id="board"></div>
+
+    <a href="index.html">Go back to index page</a>
+
+</body>
+</html>
